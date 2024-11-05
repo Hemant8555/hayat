@@ -18,5 +18,7 @@
 <body>
     <h1>Welcome</h1>
     <h2>welcome</h2>
+    <h5>hemant kajal</h5>
+    <h5>He is the author of this theme.</h5>
 </body>
 </html>
