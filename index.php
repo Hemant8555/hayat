@@ -9,9 +9,9 @@
 
 get_header();
 ?>
-        <div class="container">
-            content
+        <div id="content" class="site-content">
+            <h4>Site content</h4>
         </div>
-        
+
 <?php
 get_footer();

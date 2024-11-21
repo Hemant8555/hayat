@@ -16,13 +16,17 @@
     <?php wp_head();  ?>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header</title>
+    <title>Hayat</title>
 </head>
-<body>
+<body <?php body_class(); ?>> 
 
     <?php
-    wp_footer();
-    wp_body_open(); ?>
-    <div class="container">
-        Header
-    </div>
+    if(wp_body_open()){
+        wp_body_open(); 
+    }
+    ?>
+    <div id="page" class="site">
+	<header id="masthead" class="site-header" role="banner">
+		<?php include_once 'wp-content/themes/Hayat/template-parts/header/nav.php' ; ?>
+	</header>
+

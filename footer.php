@@ -7,8 +7,8 @@
  */
 
 ?>
-    <div class="container">
-        footer
+    <div id="masterfooter" class="site-footer">
+        Footer
     </div>
 </body>
 </html>
